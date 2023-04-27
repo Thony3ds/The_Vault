@@ -1,0 +1,22 @@
+Systeme de sécu:
+					Cahier des charges:
+1:
+	le systeme a un code pin (4 chiffre) avec 3 essais
+	l'appli de départ peut crypter une clé avec une clé
+2:
+	Si les 3 essais return False:
+		mettre la clé usb lancera un decryptage (need key) de la clé crypté:
+			pourra changer code puis re verouille le code pin changé
+
+D'autres changement et amélioration pourrons être apporter si nécéssaire on bien.
+
+
+VAULT:
+    il faut que les files du vault soit crypt puis compress dans 1 .zip (donc decompress...)
+    
+UPDATE 1:
+	faire un file.json pour stoker les .trucs des fichier pour pouvoir crypter tout type de files
+	faire des .crypt partout pour plus sécu et crypter le .json qui les gardes
+
+UPDATE 2:
+	mettre les codes ramdom, ... dans the vautl quand crypting
